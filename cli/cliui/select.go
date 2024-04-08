@@ -8,10 +8,10 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/AlecAivazis/survey/v2/terminal"
-	"golang.org/x/xerrors"
-
+	tea "github.com/charmbracelet/bubbletea"
 	"github.com/coder/coder/v2/codersdk"
 	"github.com/coder/serpent"
+	"golang.org/x/xerrors"
 )
 
 func init() {
